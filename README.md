@@ -9,9 +9,11 @@ HTTPのPOSTリクエストでBODYにvoicetextパラメータとして音声合�
 
 例：
 ◆HTTP POST
+
 http://127.0.0.1:6666/voice/synthesis
 
 ◆body
+
 {
   "voicetext":"おはようございます！ お目覚めはいかがですか？"
 }
